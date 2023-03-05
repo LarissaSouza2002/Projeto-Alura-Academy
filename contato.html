@@ -1,12 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Contatos</title>
+    <link rel="stylesheet" href="./assets/styles/style-dados.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+
+
 </head>
+
 <body>
-    ainda em progresso
-</body>
+    <header>
+            <h1>
+                <img id="logo" src="./assets/img/logo.jpg">
+            </h1>
+            
+            <div class="principal">
+                <h1 class="titulo-principal"> Fátima Cruz</h1>
+                <h2 class="titulo-centralizado"> Pericia Técnica</h2>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Currículo </a></li>
+                    <li><a href="portifolio.html"> Portifólio </a></li>
+                    <li><a href="contato.html"> Contato </a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <form class="container">
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao">
+        
+                    <label for="email">Email</label>
+                    <input type="text" id="email" class="input-padrao">
+                    
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" class="input-padrao">
+                    
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="68" rows="6" id="mensagem" class="input-padrao"></textarea>
+
+                    <div class="preferencias">
+        <p>Como prefere o nosso contato?</p>
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+    </div>
+
+    <input type="submit" value="Enviar">
+</form>
+
+</main>
+
+    <div class="footer">
+        <p>O site PERICIATECNICA.ORG, é dedicado à produção de artes para os profissionais atuantes do judiciário.
+        Todos os direitos reservados para o site PERICIATECNICA.ORG - ano 2023.</p>
+    </div>
+    </body>
 </html>
+
+
+<!-- <main> -->
+    <!-- </main> -->

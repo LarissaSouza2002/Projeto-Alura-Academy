@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+}
+h1{
+    color: #fff;
+}
+
+h2{
+    color: 
+    #fff;
+}
+
+nav {
+    margin: 80px;
+    padding: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    position: relative;
+    list-style: none;
+}
+nav > ul > li> a:hover{
+    color: #b99d37;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+nav > ul > li> a{
+    color: #fff;
+    margin: 30px;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#054985, #000000);
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+}
+
+label, input, textarea {
+    display: block;
+}
+
+form {
+    background-color: rgb(205, 201, 201);
+    color: black;
+    padding: 20px;
+    line-height: 20px;
+    margin: 0%;
+    /* border-radius: 10px; */
+}
+
+input{
+    display: inline-block;
+}
+
+textarea{
+    resize: none
+    /* display: block; */
+}
+
+#logo{
+    padding: 20px; 
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.preferencias{
+    display: block;
+    /* margin: 10px; */
+}
+
+.titulo-centralizado{
+    align-self: flex-end;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    line-height: 8px;
+    width: 20%;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 25px;
+    padding: 2%;
+    /* justify-content: center; */
+    
+}
+
+/* estilos para o rodapé */
+.footer {
+    background-image: linear-gradient(#054985, #000000);
+    color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+}

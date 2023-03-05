@@ -1,5 +1,28 @@
-h2{
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#054985, #000000);
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
     color: #fff;
+}
+
+h2{
+    color: 
+    #fff;
 }
 nav {
 
@@ -20,31 +43,18 @@ nav > ul > li> a{
     text-align: right;
 }
 
-h1{
-    color: #fff;
+nav > ul > li> a:hover{
+    color: #b99d37;
+    text-decoration:underline;
+    cursor: pointer;
 }
+
 
 a{
     text-decoration: none;
 }
 
-html{
-    margin: 0;
-    padding: 0;
-}
 
-body{
-    margin: 0;
-    padding: 0;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    background-image: linear-gradient(#054985, #000000);
-    align-items: center;
-
-}
 
 .principal{
     display: flex;
@@ -83,10 +93,12 @@ header{
 
 #academica{
     margin: 0%;
+
 }
 
 #profissional{
     margin: 0%;
+
 }
 
 .footer{
