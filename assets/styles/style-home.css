@@ -24,6 +24,7 @@ h2{
     color: 
     #fff;
 }
+
 nav {
 
     padding: 30px;
@@ -34,13 +35,13 @@ nav > ul{
     display: flex;
     align-items: center;
     position: relative;
-
 }
 
 nav > ul > li> a{
     color: #fff;
     margin: 30px;
     text-align: right;
+    text-transform: uppercase;
 }
 
 nav > ul > li> a:hover{
@@ -74,18 +75,10 @@ a{
 #logo{
     padding: 20px; 
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 12%;
+    height: auto;
 }
 
-.info-card{
-    background-color: rgb(205, 201, 201);
-    color: black;
-    padding: 20px;
-    border-radius: 10px;   
-    line-height: 20px; 
-    margin: 0%;
-}
 
 #resumo{
     margin: 0%;
@@ -119,7 +112,20 @@ a{
     padding: 2%;
 }
 
+.info-card{
+    background-color: rgb(205, 201, 201);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;   
+    line-height: 20px; 
+    margin: 0%;
+}
 
+@media only screen and (max-width: 600px){
+    #logo{
+        width: 25%;
+    }
+}
 
 
 
