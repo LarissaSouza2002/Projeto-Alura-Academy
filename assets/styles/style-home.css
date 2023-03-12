@@ -1,7 +1,7 @@
-html{
+/* html{
     margin: 0;
     padding: 0;
-}
+} */
 
 body{
     margin: 0;
@@ -173,10 +173,12 @@ footer {
     .titulo-principal{
         margin: 5px;
         font-size: 20px;
+        white-space: nowrap;
     }
 
     .titulo-centralizado{
         font-size: 20px;
+        white-space: nowrap;
     }
 
     .card-container{
@@ -186,7 +188,7 @@ footer {
 
     .info-card{
         width: 90vw;
-        padding: 30px;
+        padding: 20px;
         margin-bottom: 5vw;
     }
 

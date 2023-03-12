@@ -129,10 +129,12 @@ footer {
     .titulo-principal{
         margin: 5px;
         font-size: 20px;
+        white-space: nowrap;
     }
 
     .titulo-centralizado{
         font-size: 20px;
+        white-space: nowrap;
     }
 
     .info-portifolio{
@@ -143,11 +145,10 @@ footer {
         height: 100vh;
     }
 
-    i
+    
     footer{
         height: 40px;
         position: fixed;
-        width: 100%;
     }
 
     .footer-text{
