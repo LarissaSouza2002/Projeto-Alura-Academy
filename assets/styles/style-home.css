@@ -129,8 +129,7 @@ div p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 25px;
-    padding: 2%;
+    padding: 10px;
     flex: 9;
 }
 
