@@ -10,9 +10,6 @@
     <title>Contatos</title>
     <link rel="stylesheet" href="./assets/styles/style-dados.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-
-
-
 </head>
 
 <body>
@@ -25,53 +22,58 @@
         </div>
         
         <nav>
-            <ul>
-                <li>
+                <div>
                     <a href="index.html"> Currículo</a>
-                </li>
-                <li>
+                </div>
+
+                <div>
                     <a href="portifolio.html"> Portifólio</a>
-                </li>
-                <li>
-                    <a href="contato.html"> Contato</a>
-                </li>
-            </ul>
+                </div>
+
+                <div>
+                    <a href="#"> Contato</a>
+                </div>
         </nav>
     </header>
 
     <main>
-        <form class="container">
-            <label for="nomesobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomesobrenome" class="input-padrao">
-        
-                    <label for="email">Email</label>
-                    <input type="text" id="email" class="input-padrao">
-                    
-                    <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone" class="input-padrao">
-                    
-                    <label for="mensagem">Mensagem</label>
-                    <textarea cols="50" rows="6" id="mensagem" class="input-padrao"></textarea>
+        <form >
+            <fieldset>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao">
+            </fieldset>
+
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="text" id="email" class="input-padrao">
+            </fieldset>
+
+            <fieldset> 
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="input-padrao">
+            </fieldset>
+
+            <fieldset>
+                    <label for="mensage">Mensagem</label>
+                    <textarea name="mensage" id="mensage" cols="30" rows="9" class="input-padrao"></textarea>
+            </fieldset>
 
                     <div class="preferencias">
-                        <p>Como prefere o nosso contato?</p>
+                        <p id="information">Como prefere o nosso contato?</p>
                         <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
                         <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
                         <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
                     </div>
-                    
-                    <input type="submit" value="Enviar">
+
+                    <button type="button">Enviar</button>                
                 </form>
             </main>
                 
 
-    <div class="footer">
-        <p>O site PERICIATECNICA.ORG, é dedicado à produção de artes para os profissionais atuantes do judiciário.
-        Todos os direitos reservados para o site PERICIATECNICA.ORG - ano 2023.</p>
-    </div>
+        <footer>
+            <p class="footer-text">O site PERICIATECNICA.ORG, é dedicado à produção de artes para os profissionais atuantes do judiciário.
+                Todos os direitos reservados para o site PERICIATECNICA.ORG - ano 2023.
+            </p>
+        </footer>
     </body>
 </html>
-
-
-<!-- <main> -->
-    <!-- </main> -->

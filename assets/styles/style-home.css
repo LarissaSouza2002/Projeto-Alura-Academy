@@ -6,7 +6,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-}
+} 
 
 header{
     display: flex;
@@ -26,42 +26,54 @@ h2{
 }
 
 nav {
-
     padding: 30px;
-}
-
-nav > ul{
-    list-style-type: none;
     display: flex;
-    align-items: center;
-    position: relative;
 }
 
-nav > ul > li> a{
+nav  div{
+    list-style-type: none;
+    /* align-items: center; */
+    /* position: relative; */
+}
+
+nav div a{
     color: #fff;
     margin: 30px;
     text-align: right;
     text-transform: uppercase;
 }
 
-nav > ul > li> a:hover{
+nav div a:hover{
     color: #b99d37;
     text-decoration:underline;
     cursor: pointer;
 }
 
-
-a{
-    text-decoration: none;
+main ul {
+    list-style: none;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
 }
 
+main ul li img {
+    width: 300px;
+    height: 400px;
+    border: 2px solid #000000;
+    
+}
 
+main ul li img:hover{
+    border-color: #c78c19;
+}
 
-.principal{
-    display: flex;
-    flex-direction: column;
-    line-height: 8px;
-    width: 20%;
+main ul li{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+main ul li p{
+    color: #000000;
 }
 
 .titulo-principal{
@@ -72,6 +84,26 @@ a{
     align-self: flex-end;
 }
 
+#resumo{
+    font-size: 25px;
+}
+
+div p{
+    font-size: 20px;
+}
+
+#academica{
+    font-size: 25px;
+}
+
+.itens{
+    font-size: 20px;
+}
+
+#profissional{
+    font-size: 25px;
+}
+
 #logo{
     padding: 20px; 
     border-radius: 50%;
@@ -80,36 +112,26 @@ a{
 }
 
 
-#resumo{
-    margin: 0%;
-}
-
-#academica{
-    margin: 0%;
-
-}
-
-#profissional{
-    margin: 0%;
-
-}
-
-.footer{
-    background-image: linear-gradient(#054985, #000000);
-    bottom: 0;
-    height: 50px;
-    color: #fff;
+.principal{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    line-height: 8px;
+    width: 20%;
+}
+
+
+.section{
+    width: 100%;
+    height: 100%;
 }
 
 .card-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
     gap: 25px;
     padding: 2%;
+    flex: 9;
 }
 
 .info-card{
@@ -117,30 +139,82 @@ a{
     color: black;
     padding: 20px;
     border-radius: 10px;   
-    line-height: 20px; 
-    margin: 0%;
+    line-height: 20px;
+    
 }
 
-@media only screen and (max-width: 600px){
-    #logo{
-        width: 25%;
+footer {
+    background-image: linear-gradient(#054985, #000000);
+    bottom: 0;
+    flex: 1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    position:fixed;
+}
+    
+.footer-text {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media(max-width: 768px) {
+    header{
+        flex-direction: column;
+    }
+
+    .titulo-principal{
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    .titulo-centralizado{
+        font-size: 20px;
+    }
+
+    .card-container{
+        display: flex;
+        align-items: center;
+    }
+
+    .info-card{
+        width: 90vw;
+        padding: 30px;
+        margin-bottom: 5vw;
+    }
+
+    #resumo{
+        font-size: 20px;
+    }
+
+    #academica{
+        font-size: 20px;
+    }
+
+    #profissional{
+        font-size: 20px;
+    }
+
+    .itens{
+        font-size: 15px;
+    }
+    #text{
+        font-size: 15px;
+    }
+
+    footer{
+        height: 40px;
+        position: fixed;
+    }
+
+    .footer-text{
+        font-size: 10px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
