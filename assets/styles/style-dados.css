@@ -88,15 +88,15 @@ main ul li p{
     width: 20%;
 }
 
-form fieldset input, textarea{
+form div input, textarea{
     width: 100%;
 }
 
-fieldset label, input{
+div label, input{
     text-transform: uppercase;
 } 
 
-fieldset{
+div{
     padding: 10px;
 }
 
@@ -112,7 +112,7 @@ form {
     border:solid #b99d37;
 }
 
-form fieldset{
+form div{
     border: 0;
 }
 
