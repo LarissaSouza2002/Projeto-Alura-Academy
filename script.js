@@ -12,8 +12,10 @@ function checkInputs() {
     const emailValue = email.value;
     const telefoneValue = telefone.value;
 
+    
 if ( usernameValue == "") {
     setErrorFor(username, 'Erro: Nome e Sobrenome é obrigatório.');
+    return false
 } else {
     setSuccessFor(username);
 }
@@ -21,20 +23,19 @@ if ( usernameValue == "") {
 if (emailValue == "") {
     setErrorFor(email, 'Erro: O Email é obrigatório.');
     return false
-}else if (!checkEmail(emailValue)) {
+} else if (!checkEmail(emailValue)) {
     setErrorFor(email, 'Erro: Por favor insira um E-mail válido.');
     return false
-}else{
+} else{
     setSuccessFor(email);
 }
 
 if (telefoneValue == "") {
     setErrorFor(telefone, 'Erro: Digite um Telefone válido');
     return false
-}else{
+} else {
     setSuccessFor(telefone);
 }
-
 
 const formControl = form.querySelectorAll('.form-control')
 
